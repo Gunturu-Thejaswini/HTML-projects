@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF_8">
+<title>Wikipedia-Style Knowledge base</title>
+</head>
+<body>
+<header>
+<h1>Encyclopedia knowledge base</h1>
+<nav>
+<ul>
+<li><a href="" src="#intro">Intoduction</a></li>
+<li><a href="" src="#topic1">Topic 1:HTML</a></li>
+<li><a href="" src="#topic2">Topic 2:CSS</a></li>
+<li><a href="" src="#topic3">Topic 3:JavaScript</a></li>
+<li><a href="" src="#refrences">Refrences</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="intro">
+<article>
+<h2>Introduction</h2>
+<p>This covers multiple topics with rich content,tables,images and refrences.</p>
+</article>
+</section>
+<section id="topic1">
+<article>
+<h2>HTML</h2>
+<h3>Overview</h3>
+<p>HTML(Hyper Text Markup Language) is the standard language used to create and structure content on web and it consists of a series of elements represented by tags.</p>
+<h3>Tags</h3>
+<table border="1" summary="tags of the HTML">
+<thead>
+<tr>
+<th>S.NO</th>
+<th>Tags</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>html</td>
+<td>The root element that wraps the entire document</td>
+</tr>
+<tr>
+<td>2</td>
+<td>head</td>
+<td>Contains meta information</td>
+</tr>
+<tr>
+<td>3</td>
+<td>title</td>
+<td>Sets the title of the  web page</td>
+</tr>
+<tr>
+<td>4</td>
+<td>body</td>
+<td>Contains the visible content of web page</td>
+</tr>
+<tr>
+<td>5</td>
+<td>p</td>
+<td>Paragraphs of a text</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>Headings(h1-h6)</li>
+<li>Anchor(a)</li>
+<li>Image(img)</li>
+<li>Unordered list(ul)</li>
+<li>Ordered list(li)</li>
+
+</ul>
+<figure>
+<img href="" src="C:\Users\guntu\Desktop\9d575d61-05ed-41b5-91c0-fe6d2aa9d2cb.jpg" alt="HTML" width="400">
+<figcaption>HTML</figcaption>
+</figure>
+</article>
+</section>
+<section id="topic2">
+<article>
+<h2>CSS</h2>
+<h3>Overview</h3>
+<p>CSS(Cascading Style Sheets)is a style sheet language used for describing the presentation of a document written in a markup language.</p>
+<h3>Topics</h3>
+<table border="1" summary="tags of the HTML">
+<thead>
+<tr>
+<th>S.NO</th>
+<th>Title</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Selectors</td>
+<td>Patterns used to target specific HTML elements for styling</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Box model</td>
+<td>A fundamental concept how elements are rendered as boxes</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Layout</td>
+<td>Techniques for arranging element on a page ,notably flexbox and CSS grid</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Typography and Text styling</td>
+<td>Properties for controlling fonts,text allignment,spacing,color and other text related visual accepts</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Colors and Background</td>
+<td>Defining colors for text and elements and setting background images,colors and gradients</td>
+</tr>
+</tbody>
+</table>
+<p>The following actions are performed with CSS:</p>
+<ul>
+<li>Images</li>
+<li>Colors</li>
+<li>Gradients</li>
+<li>Background</li>
+<li>Visual Effects</li>
+
+</ul>
+<figure>
+<img href="" src="C:\Users\guntu\Desktop\cafb8379-edc6-443c-b364-6aabef042e5c.jpg" alt="CSS" width="400">
+<figcaption>CSS</figcaption>
+</figure>
+</article>
+</section>
+<section id="topic3">
+<article>
+<h2>JavaScript</h2>
+<h3>Overview</h3>
+<p>JavaScript is a high level,multi paradigm programming language that conforms to the ECMAScript standard.</p>
+<h3>Topics</h3>
+<table border="1" summary="tags of the HTML">
+<thead>
+<tr>
+<th>S.NO</th>
+<th>Title</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Variables and Data Types</td>
+<td>Understanding var,let,const and primitive data types and complex data types.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Operators</td>
+<td>Arithmetic,Assignment,Comparison,Logical,Bitwise and Ternary operator.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Control Flow</td>
+<td>Conditional satements,loops.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Functions</td>
+<td>Defining and invoking functions,parameters,return values,scope,arrow functions and callback functions.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Events</td>
+<td>Handling user interactions and browser events.</td>
+</tr>
+</tbody>
+</table>
+<p>The following actions are performed with CSS:</p>
+<ul>
+<li>Responding to UI</li>
+<li>Manipulate the document object model</li>
+<li>Handling the browser actions</li>
+<li>Data handling</li>
+<li>Enhancing user experience/li&gt;
+
+</li></ul>
+<figure>
+<img href="" src="C:\Users\guntu\Desktop\c8713c65-d9d3-4bc5-ad92-dc718329eb04.jpg" alt="JavaScript" width="400">
+<figcaption>JavaSCript</figcaption>
+</figure>
+</article>
+</section>
+<footer id="references">
+<h2>References</h2>
+<ol>
+<li id="footnote1">freeCodeCamp.<a href="https://www.freecodecamp.org&quot;target=&quot;_blank&quot;&lt;/a">
+</a></li>
+<li id="footnote1"><a href="https://www.freecodecamp.org&quot;target=&quot;_blank&quot;&lt;/a">GeeksForGeeks.</a>
+<a href="https://www.geeksforgeeks.org&quot;target=&quot;_blank&quot;&lt;/a">
+</a></li>
+</ol>
+<a href="https://www.geeksforgeeks.org&quot;target=&quot;_blank&quot;&lt;/a">
+</a>
+</footer>
+<a href="https://www.geeksforgeeks.org&quot;target=&quot;_blank&quot;&lt;/a">
+
+                                                                                                                                                                                                                                                                            </a>
+</main>
+</body>
+</html>

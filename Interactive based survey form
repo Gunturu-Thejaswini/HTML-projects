@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+</head>
+<body>
+<h1>Interactive Survey Form</h1>
+<form>
+<fieldset>
+<legend>Personal Information</legend>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<br>
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" min="2">
+<br>
+<label for="Mobile">Mobile:</label>
+<input type="number" id="mobile" name="mobile" min="10">
+<br>
+<label for="Email">Email:</label>
+<input type="text" id="email" name="email">
+<br>
+</fieldset>
+<br>
+<fieldset>
+<legend>Gender</legend>
+<label><input type="radio" name="gender" value="Male">Male</label>
+<label><input type="radio" name="gender" value="Female">Female</label>
+<label><input type="radio" name="gender" value="Other">Other</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>Interests</legend>
+<label><input type="checkbox" name="interests" value="Travel">Travel</label>
+<label><input type="checkbox" name="interests" value="Photography">Photography</label>
+<label><input type="checkbox" name="interests" value="Artist">Artist</label>
+<label><input type="checkbox" name="interests" value="Blogging">Blogging</label>
+<label><input type="checkbox" name="interests" value="Sports">Sports</label>
+<label><input type="checkbox" name="interests" value="Business">Business</label>
+<label><input type="checkbox" name="interests" value="Freelancer">Freelancer</label>
+<label><input type="checkbox" name="interests" value="Actor or Actress">Actor or Actress</label>
+
+</fieldset>
+<br>
+<fieldset>
+<legend>Country</legend>
+<label for="country">Select your country:</label>
+<select id="country" name="country">
+<option value="">--choose--</option>
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="UK">UK</option>
+<option value="Other">Other</option>
+</select>
+</fieldset>
+<br>
+<fieldset>
+<legend>Feedback</legend>
+<label for="feedback">Your comment:</label>
+<textarea id="feedback" name="feedback" rows="4" cols="20" placeholder="Enter your comment here"></textarea>
+</fieldset>
+<br>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
+
+
+
